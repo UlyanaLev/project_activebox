@@ -1,0 +1,27 @@
+.features  {
+    background-color: $_background-color_light;
+    padding: 7.25rem 0;
+}
+.features-wrap {
+    display: grid;
+    column-gap: 1.875rem;
+    grid-template-columns: repeat(auto-fit, minmax(23.125rem, 23.125rem));
+}
+.features-card_img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 0 auto 3.375rem;
+}
+.features-card_text {
+    margin: 0 auto 5.5rem; 
+}
+.features-title {
+    @include text_title;
+    text-transform: uppercase;
+    margin: 0 auto 2.75rem;
+    text-align: center;
+}
+.features-card_text_min {
+    @include text_min;
+    text-align: center;   
+} 

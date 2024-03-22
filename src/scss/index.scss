@@ -1,0 +1,26 @@
+@import "./_cdn.scss";
+@import "./_mixins.scss";
+@import "./_variables.scss";
+@import "./font.scss";
+@import "./header.scss";
+@import "./banner.scss";
+@import "./features.scss";
+@import "./work.scss";
+@import "./our_team.scss";
+@import "./testimonials.scss";
+@import "./download.scss";
+@import "./footer.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+    position: relative;
+}
