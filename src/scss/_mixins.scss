@@ -1,3 +1,33 @@
+@mixin nav_text_a {
+  color:$_color_nav_text;
+  font-size: $_font-size_nav_text;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_bold; 
+  transition: $_transition_normal;
+}
+
+@mixin banner_big_title {
+  color:$_color_nav_text;
+  font-size:$_font-size_big_title;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_black;
+}
+
+@mixin banner_description {
+  color:$_color_nav_text;
+  font-size:$_font-size_text_title;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_normal_regular;
+}
+
+@mixin banner_download_normal {
+  color: $_color_nav_text;
+  background-color: $_button_normal;
+  font-size: $_font-size_text_title;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_black;   
+  transition: $_transition_normal;   
+}
 
 @mixin text_title {
   color: $_color_text_title;

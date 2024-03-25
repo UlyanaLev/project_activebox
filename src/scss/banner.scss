@@ -1,0 +1,53 @@
+.banner {
+    padding: 14.375rem 0 7.5rem;
+    background: url('../img/background_1.png'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(37, 43, 73, 0.8);
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }    
+    .container {
+        z-index: 8;
+    }
+}
+.banner_title {
+    @include banner_big_title;
+    margin: 0 auto 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner_description {
+    margin: 0 auto 5.125rem;
+    text-align: center;
+    p {
+        @include banner_description;
+    }
+}
+.banner_download {
+    margin: 0 auto;
+    padding: 1.625rem 0;
+    width: 23.125rem;
+    text-align: center;
+    a {
+        @include banner_download_normal;
+        padding: 1.625rem 6.375rem;
+        margin: 0 auto;
+        &:hover {
+            background-color: $_button_hover;
+        }
+        &:active {
+            background-color:$_button_active;
+            transition: none;
+            filter: drop-shadow(.25rem .25rem 1.875rem $_button_active)
+        }
+    }
+}
