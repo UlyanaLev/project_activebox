@@ -41,3 +41,35 @@
   font-family: $_font-family_text;
   font-weight: $_font-weight_normal_regular; 
 }
+
+@mixin work_title {
+  color:$_color_nav_text;
+  font-size: $_font-size_text_title;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_black; 
+}
+@mixin work_text_min {
+  color:$_color_nav_text;
+  font-size: $_font-size_text_min;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_normal_regular; 
+}
+
+@mixin our_team__initials {
+  color:$_color_text_title;
+  font-size: $_font-size_text_title;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_bold;
+}
+@mixin our_team__job {
+  color:$_button_normal;
+  font-size: $_font-size_text_min;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_normal_regular; 
+}
+@mixin our_team__description {
+  color:$_color_text_min;
+  font-size: $_font-size_text_min;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_normal_regular;
+}

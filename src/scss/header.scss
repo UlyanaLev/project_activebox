@@ -2,7 +2,11 @@
     background: transparent;
     position:fixed;
     width: 100%;
-    z-index: 9;
+    z-index: 9999;
+    transition: $_transition_normal;
+}
+.header-scroll {
+    background: #252b49;
 }
 .header-wrap {
     display: flex;
