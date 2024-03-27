@@ -1,9 +1,9 @@
 // colors
+$_background-color_light:#E5E5E5;
 
 $_button_normal:#FF4343;
 $_button_hover:#E71414;
 $_button_active:#FF4343;
-$_background-color_light:#E5E5E5;
 
 $_color_nav_text:#FFFFFF;
 $_color_nav_hover:#BABBC5;
@@ -11,6 +11,12 @@ $_color_nav_active:#E71414;
 
 $_color_text_title:#2D3033;
 $_color_text_min:#6C7279;
+
+$_color_social_media:#C6CBCD;
+
+$_color_work_hover: #ff4343cc;
+
+$_color_work_active: #B90C0Ccc;
 
 // font-size
 
@@ -31,4 +37,8 @@ $_font-weight_black:900;
 
 //transition
 $_transition_normal:0.45s;
+
+//gap
+$_gap_work_column:3px;
+$_gap_work_row:2px;
 
