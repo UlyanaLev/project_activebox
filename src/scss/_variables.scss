@@ -1,5 +1,7 @@
 // colors
 $_background-color_light:#E5E5E5;
+$_background-color_footer_light:#353C65;
+$_background-color_footer_dark: #2C3154;
 
 $_button_normal:#FF4343;
 $_button_hover:#E71414;
@@ -18,12 +20,16 @@ $_color_work_hover: #ff4343cc;
 
 $_color_work_active: #B90C0Ccc;
 
+$_color_download_text:#000000;
+
+$_color_footer_text: #808080;
+
 // font-size
 
 $_font-size_nav_text:.8125rem; //13px
 $_font-size_text_min:1.125rem; //18px
 $_font-size_text_title:1.5rem; //24px
-
+$_font-size_middle_title:1.875rem; //30px
 $_font-size_big_title:4rem; //64px
 
 // font-family
@@ -32,6 +38,7 @@ $_font-family_text:"Raleway";
 
 //font-weight
 $_font-weight_normal_regular:400;
+$_font-weight_medium:500;
 $_font-weight_bold:700;
 $_font-weight_black:900;
 

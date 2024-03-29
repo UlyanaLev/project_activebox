@@ -5,30 +5,35 @@
   font-weight: $_font-weight_bold; 
   transition: $_transition_normal;
 }
-
 @mixin banner_big_title {
   color:$_color_nav_text;
   font-size:$_font-size_big_title;
   font-family: $_font-family_text;
   font-weight: $_font-weight_black;
 }
-
 @mixin banner_description {
   color:$_color_nav_text;
   font-size:$_font-size_text_title;
   font-family: $_font-family_text;
   font-weight: $_font-weight_normal_regular;
 }
-
 @mixin banner_download_normal {
   color: $_color_nav_text;
   background-color: $_button_normal;
   font-size: $_font-size_text_title;
   font-family: $_font-family_text;
   font-weight: $_font-weight_black;   
-  transition: $_transition_normal;   
+  transition: $_transition_normal;
+  text-transform: uppercase; 
+  &:hover {
+    background-color: $_button_hover;
+  }
+  &:active {
+      background-color:$_button_active;
+      transition: none;
+      filter: drop-shadow(.25rem .25rem 1.875rem $_button_active)
+  }  
 }
-
 @mixin text_title {
   color: $_color_text_title;
   font-size: $_font-size_text_title;
@@ -41,7 +46,6 @@
   font-family: $_font-family_text;
   font-weight: $_font-weight_normal_regular; 
 }
-
 @mixin work_title {
   color:$_color_nav_text;
   font-size: $_font-size_text_title;
@@ -54,7 +58,6 @@
   font-family: $_font-family_text;
   font-weight: $_font-weight_normal_regular; 
 }
-
 @mixin our_team__initials {
   color:$_color_text_title;
   font-size: $_font-size_text_title;
@@ -72,4 +75,35 @@
   font-size: $_font-size_text_min;
   font-family: $_font-family_text;
   font-weight: $_font-weight_normal_regular;
+}
+@mixin download_title {
+  color:$_color_download_text;
+  font-size:$_font-size_middle_title;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_medium;
+}
+@mixin download_description {
+  color: $_color_download_text;
+  font-size: $_font-size_text_min;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_bold;
+  text-transform: uppercase;
+}
+@mixin footer_text_title {
+  font-size: $_font-size_text_min;
+  font-weight: $_font-weight_bold;
+  color: $_color_nav_text;
+  font-family: $_font-family_text;
+}
+@mixin footer_text_description {
+  font-size: $_font-size_text_min;;
+  font-weight: $_font-weight_normal_regular;
+  color: $_color_nav_text;
+  font-family: $_font-family_text;
+}
+@mixin footer_text_bottom {
+    color: $_color_footer_text;
+    font-family: $_font-family_text;
+    font-size: $_font-size_text_min;  
+    font-weight: $_font-weight_normal_regular;
 }
