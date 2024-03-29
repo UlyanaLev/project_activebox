@@ -40,9 +40,11 @@
 .our_team-social-list {
     display: flex;
     flex-direction: row;
-    margin-right: 6px;
     li {
-       margin-right: 6px; 
+       margin-right: 6px;
+       &:last-child {
+        margin-right: 0;
+    }
     }
     i {
         border: 1px solid $_color_social_media;

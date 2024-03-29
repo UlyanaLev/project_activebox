@@ -20,34 +20,28 @@
     }
 }
 .banner_title {
-    @include banner_big_title;
     margin: 0 auto 2rem;
-    text-transform: uppercase;
     text-align: center;
+    max-width: 65rem;
+        h1 {
+            @include banner_big_title;
+            text-transform: uppercase;
+        }
 }
 .banner_description {
+    max-width: 62.5rem;
     margin: 0 auto 5.125rem;
     text-align: center;
-    p {
-        @include banner_description;
-    }
+        p {
+            @include banner_description;
+        }
 }
 .banner_download {
     margin: 0 auto;
     padding: 1.625rem 0;
-    width: 23.125rem;
-    text-align: center;
+    width: 23.125rem; //370px
     a {
         @include banner_download_normal;
-        padding: 1.625rem 6.375rem;
-        margin: 0 auto;
-        &:hover {
-            background-color: $_button_hover;
-        }
-        &:active {
-            background-color:$_button_active;
-            transition: none;
-            filter: drop-shadow(.25rem .25rem 1.875rem $_button_active)
-        }
+        padding: 1.625rem 5.6875rem;
     }
 }

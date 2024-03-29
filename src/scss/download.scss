@@ -1,0 +1,31 @@
+.download {
+    background-color: $_background-color_light;
+    padding: 134px 0 114px;
+}
+.download_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.download_title {
+    margin-bottom: 20px;  
+        h2 {
+            @include download_title;
+            max-width: 1000px;
+        }
+}
+.download_description {
+    margin-bottom: 50px;
+         p {
+            @include download_description;
+            max-width: 800px;
+        }
+}
+.download_button {
+    padding: 1.625rem 0;
+    a {
+        @include banner_download_normal;
+        padding: 1.625rem 4.9375rem;
+    }
+}
