@@ -102,8 +102,24 @@
   font-family: $_font-family_text;
 }
 @mixin footer_text_bottom {
-    color: $_color_footer_text;
-    font-family: $_font-family_text;
-    font-size: $_font-size_text_min;  
-    font-weight: $_font-weight_normal_regular;
+  color: $_color_footer_text;
+  font-family: $_font-family_text;
+  font-size: $_font-size_text_min;  
+  font-weight: $_font-weight_normal_regular;
 }
+@mixin testimonials_biggest_title {
+  color: $_color_nav_text;
+  font-size:$_font-size_biggest_title;
+  font-family: $_font-family_title;
+  font-style: italic;
+  text-transform: capitalize;
+}
+@mixin testimonials_min_title {
+  color:$_color_nav_text;
+  font-size:$_font-size_nav_text;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_bold;
+  text-transform: uppercase;
+}
+
+        
