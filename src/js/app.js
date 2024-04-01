@@ -12,3 +12,11 @@ window.addEventListener('scroll', () => {
 
     // console.log('scroll distance: ' + scrollDistance);
 });
+
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
