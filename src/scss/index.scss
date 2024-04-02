@@ -24,3 +24,431 @@
     margin: auto;
     position: relative;
 }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+@media all and (max-width: 1200px) {
+    .container {
+      max-width: 1024px;
+    }
+    .navigation {
+        width: 566px; //566px
+    }
+    .navigation-list {
+            li {
+                width: 112px; //112px
+                a {
+                    font-size: 12px; //12px
+                }
+            }
+    }
+    .banner_title {
+        margin: 0 auto 62px; 
+        text-align: center;
+        max-width: 984px;
+            h1 {
+                font-size: 48px; //48px
+            }
+    }
+    .banner_description {
+        margin: 0 auto 92px;
+        text-align: center;
+        max-width: 850px;
+            p {
+                font-size: 18px;
+            }
+    }
+    .banner_download {
+        padding: 26px 0;
+        width: 314px; //370px
+        a {
+            padding: 26px 63px;
+        }
+    }
+    .features  {
+        padding: 4.875rem 0 1.25rem 0;
+        .container {
+            max-width: 1050px;
+        }
+    }
+    .features-wrap {
+        column-gap: 1.25rem;
+        grid-template-columns: repeat(auto-fit, minmax(314px, 314px));
+        justify-content: space-between;
+    }
+    .features-card_img {
+        width: 85px;
+        height: 85px;
+        margin: 0 auto 42px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .features-card_text {
+        margin: 0 auto 3.75rem; //60px
+        h3 {
+            font-size: 18px;
+            margin-bottom: 23px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .our_team  {
+        background-color: $_background-color_light;
+        padding: 4.875rem 0; //78px
+    }
+    .our_team-wrap {
+        column-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
+        justify-content: space-between;
+    }
+    .our_team__img {
+        margin-bottom: 25px;
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 220px;
+            vertical-align: middle;
+            overflow: hidden; 
+        }
+    }
+    .our_team__text {
+        margin-bottom: 2.4375rem;
+        h3 {
+            font-size: 1.125rem;
+        }
+        p {
+            font-size: .875rem;
+        }
+    }
+    .our_team-social-list {
+        li {
+            margin-right: 5px;
+        }
+        i {
+            width: 2.0625rem;
+            height: 2.0625rem;
+        }
+    }
+    .swiper-wrapper {
+        margin-bottom: 24px;
+    }
+    .swiper-slide {
+        height: 332px;
+    }
+    .swiper-slide_text {
+        p {
+            width: 60%;
+            margin-bottom: 28px;
+            font-size: 24px;
+        }
+        h6 {
+            width: 60%;
+            font-size: 12px;
+        }
+    }
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 10px;
+        --swiper-pagination-bullet-horizontal-gap: 13px;
+    }
+    .download {
+        padding: 78px 0 78px;
+    }
+    .download_title {
+        margin-bottom: 30px;  
+            h2 {
+                font-size: 24px;
+                max-width: 610px;
+            }
+    }
+    .download_description {
+        margin-bottom: 50px;
+             p {
+                font-size: 14px;
+                max-width: 580px;
+            }
+    }
+    .download_button {
+        padding: 28px 0;
+        a {
+            font-size: 18px;
+            padding: 28px 78px;
+        }
+    }
+    .footer {
+        padding: 47px 0 15px;
+    }
+    .footer_wrap {
+        margin-bottom: 56px;
+    }
+    .footer_left,
+    .footer_middle,
+    .footer_right {
+        width: 315px;
+        text-align: center;
+        h3 {
+            font-size: 14px;
+            margin-bottom: 17px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .footer_middle {
+        h3 {
+            margin-bottom: 33px;
+        }
+        ul {
+            li {
+                margin-right: 23px;
+            }
+        }
+    }
+    .footer_bottom {
+        max-width: 315px;
+        p {
+          font-size: 14px;
+        }
+    }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+    html {
+      font-size: 12px;
+    }
+    .container {
+      max-width: 750px;
+    }
+    .features-wrap {
+        justify-content: center;
+    }
+    .our_team-wrap {
+        grid-template-columns: repeat(2, minmax(220px, 280px));
+        justify-content: center;
+    }
+    .our_team-card {
+        margin-bottom: 25px;
+    }
+    .our_team__img {
+        margin-bottom: 25px;
+        img {   
+            width: 100%;
+            height: 227px;
+        }
+    }
+    .our_team__text {
+        margin-bottom: 2.4375rem;
+        h3 {
+            font-size: 1.125rem;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .our_team-social-list {
+        li {
+            margin-right: 5px;
+        }
+        i {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 767px) {
+    html {
+      font-size: 10px;
+    }
+    .container {
+      width: 100%;
+    }
+    .work-wrap-list {
+        aspect-ratio: 0.555;
+    }
+    .work-wrap__item {
+        width: calc(50% - $_gap_work_column);
+        height: calc(25% - $_gap_work_row);
+    }
+    .swiper-wrapper {
+        margin-bottom: 23px;
+    }
+    .swiper-slide {
+        height: 538px;
+        flex-direction: column;
+    }
+    .swiper-slide_img {
+        width: 100%;
+        height: 50%;
+    }
+    .swiper-slide_text {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        p {
+            width: 95%;
+            margin-bottom: 28px;
+            font-size: 24px;
+        }
+        h6 {
+            width: 95%;
+            font-size: 12px;
+        }
+    }
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 10px;
+        --swiper-pagination-bullet-horizontal-gap: 10px;
+    }
+    
+
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 566px) {
+    html {
+      font-size: 13px;
+    }
+    .our_team-wrap {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+    }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 320px) {
+    .header-wrap {
+        line-height: 56px;
+    }
+    .banner {
+        padding: 106px 0 52px;
+    }
+    .navigation {
+        width: 566px; //566px
+    }
+    .navigation-list {
+        li {
+            width: 112px; //112px
+            a {
+                font-size: 12px; //12px
+            }
+        }
+    }
+    .banner_title {
+        max-width: 280px;
+            h1 {
+                font-size: 36px; //48px
+            }
+    }
+    .banner_description {
+        max-width: 280px;
+        margin: 0 auto 51px;
+        text-align: center;
+            p {
+                font-size: 14px;
+            }
+    }
+    .banner_download {
+        padding: 18px 0;
+        width: 280px; //314px
+        a {
+            padding: 18px 63px;
+        }
+    }
+    .features  {
+        padding: 40px 0 35px 0;
+    }
+    .features-wrap {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+        justify-content: center;
+    }
+    .features-card_img {
+        width: 76px;
+        height: 76px;
+        margin: 0 auto 42px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .features-card_text {
+        margin: 0 auto 45px; //60px
+        h3 {
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    
+    .our_team  {
+        background-color: $_background-color_light;
+        padding: 4.875rem 0; //78px
+    }
+    .swiper-slide_img {
+        height: 39%;
+    }
+    .swiper-slide_text {
+        height: 61%;
+    }
+
+    .download {
+        padding: 57px 0 45px;
+    }
+    .download_title {
+        margin-bottom: 30px;  
+            h2 {
+                font-size: 18px;
+                max-width: 270px;
+            }
+    }
+    .download_description {
+        margin-bottom: 14px;
+             p {
+                font-size: 13px;
+                max-width: 270px;
+            }
+    }
+    .download_button {
+        padding: 30px 0;
+        a {
+            font-size: 18px;
+            padding: 30px 61px;
+        }
+    }
+    .footer {
+        background: linear-gradient($_background-color_footer_light 83%, $_background-color_footer_dark 83% 17%);
+        padding: 34px 0 28px;
+    }
+    .footer_wrap {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .footer_left,
+    .footer_middle,
+    .footer_right {
+        max-width: 280px;
+        text-align: center;
+        h3 {
+            font-size: 14px;
+            margin-bottom: 26px;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 59px;
+        }
+    }
+    .footer_middle {
+        ul {
+            margin-bottom: 69px;
+            li {
+                margin-right: 23px;
+            }
+        }
+    }
+    .footer_bottom {
+        max-width: 315px;
+        p {
+          font-size: 14px;
+        }
+    }
+}

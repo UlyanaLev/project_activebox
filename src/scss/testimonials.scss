@@ -9,19 +9,19 @@
     height: 100%;
 }
 .swiper-wrapper {
-    margin-bottom: 31px;
+    margin-bottom: 1.9375rem;
 }
 .swiper-slide {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 490px;
+    height: 30.625rem;
     position: relative;
     &:nth-child(even) {
-        background-color: #6C7279;
+        background-color: $_color_text_min;
     } 
     &:nth-child(odd) {
-        background-color: #353C65;
+        background-color: $_background-color_footer_light;
     }
 }
 .swiper-slide_img {
