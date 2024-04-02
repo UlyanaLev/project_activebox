@@ -22,12 +22,11 @@
     }
 }
 .navigation {
-    width: 41.875rem;
+    max-width: 41.875rem; //670px
 }
 .navigation-list {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     width: 100%;
         li {
             display: inline-block;
