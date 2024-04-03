@@ -1,3 +1,4 @@
+// header
 @mixin nav_text_a {
   color:$_color_nav_text;
   font-size: $_font-size_nav_text;
@@ -5,6 +6,8 @@
   font-weight: $_font-weight_bold; 
   transition: $_transition_normal;
 }
+
+// banner
 @mixin banner_big_title {
   color:$_color_nav_text;
   font-size:$_font-size_big_title;
@@ -46,6 +49,8 @@
   font-family: $_font-family_text;
   font-weight: $_font-weight_normal_regular; 
 }
+
+// works
 @mixin work_title {
   color:$_color_nav_text;
   font-size: $_font-size_text_title;
@@ -58,6 +63,8 @@
   font-family: $_font-family_text;
   font-weight: $_font-weight_normal_regular; 
 }
+
+// our_team
 @mixin our_team__initials {
   color:$_color_text_title;
   font-size: $_font-size_text_title;
@@ -76,6 +83,24 @@
   font-family: $_font-family_text;
   font-weight: $_font-weight_normal_regular;
 }
+
+// testimonials
+@mixin testimonials_biggest_title {
+  color: $_color_nav_text;
+  font-size:$_font-size_biggest_title;
+  font-family: $_font-family_title;
+  font-style: italic;
+  text-transform: capitalize;
+}
+@mixin testimonials_min_title {
+  color:$_color_nav_text;
+  font-size:$_font-size_nav_text;
+  font-family: $_font-family_text;
+  font-weight: $_font-weight_bold;
+  text-transform: uppercase;
+}
+
+// download
 @mixin download_title {
   color:$_color_download_text;
   font-size:$_font-size_middle_title;
@@ -89,6 +114,8 @@
   font-weight: $_font-weight_bold;
   text-transform: uppercase;
 }
+
+// footer
 @mixin footer_text_title {
   font-size: $_font-size_text_min;
   font-weight: $_font-weight_bold;
@@ -107,19 +134,7 @@
   font-size: $_font-size_text_min;  
   font-weight: $_font-weight_normal_regular;
 }
-@mixin testimonials_biggest_title {
-  color: $_color_nav_text;
-  font-size:$_font-size_biggest_title;
-  font-family: $_font-family_title;
-  font-style: italic;
-  text-transform: capitalize;
-}
-@mixin testimonials_min_title {
-  color:$_color_nav_text;
-  font-size:$_font-size_nav_text;
-  font-family: $_font-family_text;
-  font-weight: $_font-weight_bold;
-  text-transform: uppercase;
-}
+
+
 
         

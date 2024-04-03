@@ -10,7 +10,6 @@
 @import "./testimonials.scss";
 @import "./download.scss";
 @import "./footer.scss";
-
 * {
     margin: 0;
     padding: 0;
@@ -19,15 +18,15 @@
     text-decoration: none;
 }
 .container {
-    max-width: 1200px;
-    padding: 0 15px;
+    max-width: 1210px;
+    padding: 0 20px;
     margin: auto;
     position: relative;
 }
-////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media all and (max-width: 1200px) {
     .container {
-      max-width: 1024px;
+      max-width: 1024px; //1024px
     }
     .navigation {
         width: 566px; //566px
@@ -41,43 +40,43 @@
             }
     }
     .banner_title {
-        margin: 0 auto 62px; 
+        margin: 0 auto 62px; //62px
         text-align: center;
-        max-width: 984px;
+        max-width: 984px; //984px
             h1 {
                 font-size: 48px; //48px
             }
     }
     .banner_description {
-        margin: 0 auto 92px;
+        margin: 0 auto 92px; //92px
         text-align: center;
-        max-width: 850px;
+        max-width: 850px; //850px
             p {
-                font-size: 18px;
+                font-size: 18px; //18px
             }
     }
     .banner_download {
-        padding: 26px 0;
+        padding: 26px 0; //26px
         width: 314px; //370px
         a {
-            padding: 26px 63px;
+            padding: 26px 63px; //26px 63px
         }
     }
     .features  {
-        padding: 4.875rem 0 1.25rem 0;
+        padding: 4.875rem 0 1.25rem 0; //78px 20px
         .container {
-            max-width: 1050px;
+            max-width: 1050px; //1050px
         }
     }
     .features-wrap {
-        column-gap: 1.25rem;
-        grid-template-columns: repeat(auto-fit, minmax(314px, 314px));
-        justify-content: space-between;
+        column-gap: 1.25rem; //20px
+        grid-template-columns: repeat(auto-fit, minmax(314px, 314px)); //314px
+        justify-content: center;
     }
     .features-card_img {
-        width: 85px;
-        height: 85px;
-        margin: 0 auto 42px;
+        width: 85px; //85px
+        height: 85px; //85px
+        margin: 0 auto 42px; //42px
         img {
             width: 100%;
             height: 100%;
@@ -86,11 +85,11 @@
     .features-card_text {
         margin: 0 auto 3.75rem; //60px
         h3 {
-            font-size: 18px;
-            margin-bottom: 23px;
+            font-size: 18px; //18px
+            margin-bottom: 23px; //23px
         }
         p {
-            font-size: 14px;
+            font-size: 14px; //14px
         }
     }
     .our_team  {
@@ -98,170 +97,185 @@
         padding: 4.875rem 0; //78px
     }
     .our_team-wrap {
-        column-gap: 20px;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
+        column-gap: 20px; //20px
+        grid-template-columns: repeat(auto-fit, minmax(220px, 220px)); //220px
         justify-content: space-between;
     }
     .our_team__img {
-        margin-bottom: 25px;
+        margin-bottom: 25px; //25px
         img {
             object-fit: cover;
             width: 100%;
-            height: 220px;
+            height: 220px; //220px
             vertical-align: middle;
             overflow: hidden; 
         }
     }
     .our_team__text {
-        margin-bottom: 2.4375rem;
+        margin-bottom: 2.4375rem; //39px
         h3 {
-            font-size: 1.125rem;
+            font-size: 1.125rem; //18px
         }
         p {
-            font-size: .875rem;
+            font-size: .875rem; //14px
         }
     }
     .our_team-social-list {
         li {
-            margin-right: 5px;
+            margin-right: 5px; //5px
         }
         i {
-            width: 2.0625rem;
-            height: 2.0625rem;
+            width: 2.0625rem; //33px
+            height: 2.0625rem; //33px
         }
     }
     .swiper-wrapper {
-        margin-bottom: 24px;
+        margin-bottom: 24px; //24px
     }
     .swiper-slide {
-        height: 332px;
+        height: 332px; //332px
     }
     .swiper-slide_text {
         p {
             width: 60%;
-            margin-bottom: 28px;
-            font-size: 24px;
+            margin-bottom: 28px; //28px
+            font-size: 24px; //24px
         }
         h6 {
             width: 60%;
-            font-size: 12px;
+            font-size: 12px; //12px
         }
     }
     .swiper-pagination {
-        --swiper-pagination-bullet-size: 10px;
-        --swiper-pagination-bullet-horizontal-gap: 13px;
+        --swiper-pagination-bullet-size: 10px; //10px
+        --swiper-pagination-bullet-horizontal-gap: 13px; //13px
     }
     .download {
-        padding: 78px 0 78px;
+        padding: 78px 0 78px; //78px 78px
     }
     .download_title {
-        margin-bottom: 30px;  
+        margin-bottom: 30px; //30px
             h2 {
-                font-size: 24px;
-                max-width: 610px;
+                font-size: 24px; //24px
+                max-width: 610px; //610px
             }
     }
     .download_description {
-        margin-bottom: 50px;
+        margin-bottom: 50px; //50px
              p {
-                font-size: 14px;
-                max-width: 580px;
+                font-size: 14px; //14px
+                max-width: 580px; //580px
             }
     }
     .download_button {
-        padding: 28px 0;
         a {
-            font-size: 18px;
-            padding: 28px 78px;
+            font-size: 18px; //18px
+            padding: 0 78px;
         }
     }
     .footer {
-        padding: 47px 0 15px;
+        padding: 47px 0 15px; //47px 15px
     }
     .footer_wrap {
-        margin-bottom: 56px;
+        margin-bottom: 56px; //56px
     }
     .footer_left,
     .footer_middle,
     .footer_right {
-        width: 315px;
+        width: 315px; //315px
         text-align: center;
         h3 {
-            font-size: 14px;
-            margin-bottom: 17px;
+            font-size: 14px; //14px
+            margin-bottom: 17px; //17px
         }
         p {
-            font-size: 14px;
+            font-size: 14px; //14px
         }
     }
     .footer_middle {
         h3 {
-            margin-bottom: 33px;
+            margin-bottom: 33px; //33px
         }
         ul {
             li {
-                margin-right: 23px;
+                margin-right: 23px; //23px
             }
         }
     }
     .footer_bottom {
-        max-width: 315px;
+        max-width: 315px; //315px
         p {
-          font-size: 14px;
+          font-size: 14px; //14px
         }
     }
 }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (max-width: 992px) {
     html {
       font-size: 12px;
     }
     .container {
-      max-width: 750px;
+      max-width: 750px; //750px
     }
     .features-wrap {
         justify-content: center;
     }
     .our_team-wrap {
-        grid-template-columns: repeat(2, minmax(220px, 280px));
+        grid-template-columns: repeat(2, minmax(220px, 280px)); //220px 280px
         justify-content: center;
     }
     .our_team-card {
-        margin-bottom: 25px;
+        margin-bottom: 25px; //25px
     }
     .our_team__img {
-        margin-bottom: 25px;
+        margin-bottom: 25px; //25px
         img {   
             width: 100%;
-            height: 227px;
+            height: 227px; //227px
         }
     }
     .our_team__text {
-        margin-bottom: 2.4375rem;
+        margin-bottom: 2.4375rem; //39px
         h3 {
-            font-size: 1.125rem;
+            font-size: 1.125rem; //18px
         }
         p {
-            font-size: 14px;
+            font-size: 14px; //14px
         }
     }
     .our_team-social-list {
         li {
-            margin-right: 5px;
+            margin-right: 5px; //5px
         }
         i {
-            width: 40px;
-            height: 40px;
+            width: 40px; //40px
+            height: 40px; //40px
         }
     }
 }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (max-width: 767px) {
     html {
-      font-size: 10px;
+      font-size: 10px; //10px
     }
     .container {
       width: 100%;
+      padding: 0 20px; //20px
+    }
+    .navigation {
+        display: none;
+        z-index: 9999;
+    }
+    .burger {
+        display: flex;
+    }
+    .activebox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 56px; //56px
+        z-index: 9999;
     }
     .work-wrap-list {
         aspect-ratio: 0.555;
@@ -271,10 +285,10 @@
         height: calc(25% - $_gap_work_row);
     }
     .swiper-wrapper {
-        margin-bottom: 23px;
+        margin-bottom: 23px; //23px
     }
     .swiper-slide {
-        height: 538px;
+        height: 538px; //538px
         flex-direction: column;
     }
     .swiper-slide_img {
@@ -288,40 +302,75 @@
         height: 50%;
         p {
             width: 95%;
-            margin-bottom: 28px;
-            font-size: 24px;
+            margin-bottom: 28px; //28px
+            font-size: 24px; //24px
         }
         h6 {
             width: 95%;
-            font-size: 12px;
+            font-size: 12px; //12px
         }
     }
     .swiper-pagination {
-        --swiper-pagination-bullet-size: 10px;
-        --swiper-pagination-bullet-horizontal-gap: 10px;
+        --swiper-pagination-bullet-size: 10px; //10px
+        --swiper-pagination-bullet-horizontal-gap: 10px; //10px
     }
-    
-
+    .footer {
+        background: linear-gradient($_background-color_footer_light 83%, $_background-color_footer_dark 83% 17%);
+        padding: 34px 0 28px; //34px 28px
+    }
+    .footer_wrap {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .footer_left,
+    .footer_middle,
+    .footer_right {
+        max-width: 350px; //350px
+        text-align: center;
+        h3 {
+            font-size: 14px; //14px
+            margin-bottom: 26px; //26px
+        }
+        p {
+            font-size: 14px; //14px
+            margin-bottom: 59px; //59px
+        }
+    }
+    .footer_middle {
+        ul {
+            margin-bottom: 69px; //69px
+            li {
+                margin-right: 23px; //23px
+            }
+        }
+    }
+    .footer_bottom {
+        max-width: 315px; //315px
+        p {
+          font-size: 14px; //14px
+        }
+    }
 }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (max-width: 566px) {
-    html {
-      font-size: 13px;
+    .logo {
+        height: 15px; //15px
     }
     .our_team-wrap {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+        grid-template-columns: repeat(auto-fit, minmax(280px, 280px)); //280px 280px
+    }
+    .download_button {
+        a {
+            font-size: 18px; //18px
+            padding: 0 60px; //30px 60px
+        }
     }
 }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (max-width: 320px) {
-    .header-wrap {
-        line-height: 56px;
-    }
     .banner {
-        padding: 106px 0 52px;
-    }
-    .navigation {
-        width: 566px; //566px
+        padding: 106px 0 52px; //106px 52px
     }
     .navigation-list {
         li {
@@ -332,53 +381,52 @@
         }
     }
     .banner_title {
-        max-width: 280px;
+        max-width: 280px; //280px
             h1 {
                 font-size: 36px; //48px
             }
     }
     .banner_description {
-        max-width: 280px;
-        margin: 0 auto 51px;
+        max-width: 280px; //280px
+        margin: 0 auto 51px; //51px
         text-align: center;
             p {
-                font-size: 14px;
+                font-size: 14px; //14px
             }
     }
     .banner_download {
-        padding: 18px 0;
+        padding: 18px 0; //18px
         width: 280px; //314px
         a {
-            padding: 18px 63px;
+            padding: 18px 63px; //18px 63px
         }
     }
     .features  {
-        padding: 40px 0 35px 0;
+        padding: 40px 0 35px 0; //40px 35px
     }
     .features-wrap {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+        grid-template-columns: repeat(auto-fit, minmax(280px, 280px)); //280px 280px
         justify-content: center;
     }
     .features-card_img {
-        width: 76px;
-        height: 76px;
-        margin: 0 auto 42px;
+        width: 76px; //76px
+        height: 76px; //76px
+        margin: 0 auto 42px; //42px
         img {
             width: 100%;
             height: 100%;
         }
     }
     .features-card_text {
-        margin: 0 auto 45px; //60px
+        margin: 0 auto 45px; //45px
         h3 {
-            font-size: 18px;
-            margin-bottom: 16px;
+            font-size: 18px; //18px
+            margin-bottom: 16px; //16px
         }
         p {
-            font-size: 14px;
+            font-size: 14px; //14px
         }
     }
-    
     .our_team  {
         background-color: $_background-color_light;
         padding: 4.875rem 0; //78px
@@ -391,64 +439,25 @@
     }
 
     .download {
-        padding: 57px 0 45px;
+        padding: 57px 0 45px; //57px 45px
     }
     .download_title {
-        margin-bottom: 30px;  
+        margin-bottom: 30px; //30px
             h2 {
-                font-size: 18px;
-                max-width: 270px;
+                font-size: 18px; //18px
+                max-width: 270px; //270px
             }
     }
     .download_description {
-        margin-bottom: 14px;
+        margin-bottom: 14px; //14px
              p {
-                font-size: 13px;
-                max-width: 270px;
+                font-size: 13px; //13px
+                max-width: 270px; //270px
             }
-    }
-    .download_button {
-        padding: 30px 0;
-        a {
-            font-size: 18px;
-            padding: 30px 61px;
-        }
-    }
-    .footer {
-        background: linear-gradient($_background-color_footer_light 83%, $_background-color_footer_dark 83% 17%);
-        padding: 34px 0 28px;
-    }
-    .footer_wrap {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0;
     }
     .footer_left,
     .footer_middle,
     .footer_right {
         max-width: 280px;
-        text-align: center;
-        h3 {
-            font-size: 14px;
-            margin-bottom: 26px;
-        }
-        p {
-            font-size: 14px;
-            margin-bottom: 59px;
-        }
-    }
-    .footer_middle {
-        ul {
-            margin-bottom: 69px;
-            li {
-                margin-right: 23px;
-            }
-        }
-    }
-    .footer_bottom {
-        max-width: 315px;
-        p {
-          font-size: 14px;
-        }
     }
 }
