@@ -23,9 +23,10 @@
         }
 }
 .download_button {
-    padding: 1.625rem 0;
     a {
         @include banner_download_normal;
-        padding: 1.625rem 4.9375rem; //26px 79px
+        display: block;
+        padding: 0 4.9375rem;
+        line-height: 80px;
     }
 }
