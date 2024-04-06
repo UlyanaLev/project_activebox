@@ -4,11 +4,13 @@
 }
 .our_team-wrap {
     display: grid;
+    justify-content: center;
     column-gap: 1.875rem;
     grid-template-columns: repeat(auto-fit, minmax(14.25rem, 16.875rem));
 }
 .our_team-card {
     width: 100%;
+    margin-bottom: 20px;
 }
 .our_team__img {
     width: 100%;

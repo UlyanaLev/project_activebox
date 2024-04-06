@@ -23,6 +23,9 @@
     margin: auto;
     position: relative;
 }
+.body_hidden {
+    overflow: hidden;
+}
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media all and (max-width: 1200px) {
     .container {
@@ -252,6 +255,11 @@
             height: 40px; //40px
         }
     }
+    .swiper-button-next,
+    .swiper-button-prev {
+        margin-top: -35px;
+        --swiper-navigation-size:34px;
+    }
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media (max-width: 767px) {
@@ -359,6 +367,10 @@
     }
     .our_team-wrap {
         grid-template-columns: repeat(auto-fit, minmax(280px, 280px)); //280px 280px
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
     }
     .download_button {
         a {
